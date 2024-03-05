@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-brand{
+    color: white;
+  
+    font-size: 35px;
+     font-weight: 800;
+}
+.nav-item a{
+color: white;
+transition: all 1s;}
+
+.nav-item:hover a{
+    color:#20C997 ;
+}
+.home-link{
+    color: #20C997;
+}
+#home{
+    height: 100vh;
+    background-color: aquamarine;
+    background-image: url(../image/Header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-caption{
+    color: white;
+    text-align: center;
+  
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    padding: 30px;
+  
+
+}
+.home-caption h2{
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 10px 0px;
+}
+.home-caption h1{
+    font-size: 70px;
+
+}
+.home-caption h6{
+    font-size: 20px;
+    padding: 10px 0px;
+
+}
+.btn1{
+    margin-top: 20px;
+    padding: 13px 40px;
+    border: solid #20C997 1px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #20C997;
+    transition: all 1s;
+    font-size: 19px;
+    font-weight: 500;
+}
+.btn1:hover{
+    background-color: #20C997;
+    color: white;
+}
+.home-caption h1::after{
+    content: "|";
+    animation-name: typing;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+}
+@keyframes typing{
+    0%{ content:'s|'}
+    1.5%{ content:'si|'}
+    3%{ content:'sim|'}
+    4.5%{ content:'simo|'}
+    5%{ content:'simon|'}
+    6.5%{ content:'simone|'}
+    8%{ content:'simone o|'}
+    9.5%{ content:'simone ol|'}
+    11%{ content:'simone oli|'}
+    12.5%{ content:'simone oliv|'}
+    14%{ content:'simone olivi|'}
+    16.5%{ content:'simone olivia|'}
+    18%{ content:'simone olivi|'}
+    19.5%{ content:'simone oliv|'}
+    21%{ content:'simone oli|'}
+    23.5%{ content:'simone ol|'}
+    25%{ content:'simone o|'}
+    26.5%{ content:'simone|'}
+    28%{ content:'simon|'}
+    29.5%{ content:'simo|'}
+    31%{ content:'sim|'}
+    32.5%{ content:'si|'}
+    34%{ content:'s|'}
+    35.5%{ content:'a|'}
+    37%{ content:' a D|'}
+    38.5%{ content:' a De|'}
+    40%{ content:' a Des|'}
+    41.5%{ content:' a Desi|'}
+    43%{ content:' a Desig|'}
+    44.5%{ content:' a Disign|'}
+    46%{ content:' a Disigne|'}
+    47.5%{ content:' a Disigner|'}
+    49%{ content:' a Disigne|'}
+    50.5%{ content:' a Disign|'}
+    52%{ content:' a Desig|'}
+    53.5%{ content:' a Desi|'}
+    55%{ content:' a Des|'}
+    56.6%{ content:' a De|'}
+    58%{ content:' a D|'}
+    59.5%{ content:'a|'}
+    61%{ content:'a F|'}
+    62.5%{ content:'a Fr|'}
+    64%{ content:'a Fre|'}
+    65.5%{ content:'a Free|'}
+    67%{ content:'a Freel|'}
+    68.5%{ content:'a Freela|'}
+    70%{ content:'a Freelan|'}
+    71.5%{ content:'a Freelanc|'}
+    73%{ content:'a Freelance|'}
+    74.5%{ content:'a Freelancer|'}
+    76%{ content:'a Freelance|'}
+    77.5%{ content:'a Freelanc|'}
+    79%{ content:'a Freelan|'}
+    80.5%{ content:'a Freela|'}
+    83%{ content:'a Freel|'}
+    85%{ content:'a Free|'}
+    88%{ content:'a Fre|'}
+    90%{ content:'a Fr|'}
+    92%{ content:'a F|'}
+    94%{ content:'a |'}
+    96%{ content:'.|'}
+98%{ content:'|'}
+    100%{ content:'|'}
+
+
+}
+.about-header{
+    text-align: center;
+ 
+    position: relative;
+
+}
+.about-header h2{
+    
+    font-size: 120px;
+    font-weight: bolder;
+    text-align: center;
+    color: #EEF0F1;
+   
+}
+.about-header h4{
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+.brdr{
+    width: 8%;
+    height: 2px;
+    background-color: #20C997;
+    position: absolute;
+    top: 70%;
+    left: 46%;
+}
+.about-content span{
+    color: #20C997;
+    font-weight: 600;
+}
+.about-content{
+    font-weight: 500;
+    color: black;
+}
+.btn2{
+    border-radius: 15px;
+    background-color: #20C997;
+    color: white;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 30%);
+    border: none;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: all 1s;
+}
+.about-info span{
+    font-weight: bold;
+}
+.btn2:hover{
+    background-color:rgba(0, 0, 0, 0.6);
+    color:#20C997;
+}
+.num{
+    text-align: center;
+
+}
+.num h3{
+    font-size: 60px;
+    color: #6C757D;
+    font-weight: 400;
+
+}
+.num p{
+    font-size: 20px;
+}
+.service-header{
+    text-align: center;
+    position: relative;
+}
+.service-header h2{
+    font-size: 120px;
+    font-weight: bolder;
+    color: #EEF0F1;
+
+}
+.service-header h4{
+    font-size: 40px;
+ font-weight: 600;
+ position: absolute;
+ top: 38%;
+ left: 43%;
+}
+.service-icon{
+    color: #20C997;
+    font-size: 45px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    transition: all 1s;
+}
+#services{
+    background-color: #F8F9FA;
+}
+
+.service-icon:hover{
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 30%);
+
+}
+.icon-info h3{
+    font-weight: 600;
+}
+.summary1{
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 20px;
+    border:  solid 3px  #EEF0F1 !important;
+  
+
+}
+.date{
+    background-color: #20C997;
+    display: inline;
+   font-weight: 600;}
+.summary1 h5{
+    color: red;
+}
+.summary1 h3{
+    font-weight: 600;
+}
+.resume-block{
+    text-align: center;
+    position: relative;
+
+}
+
+.resume-block h2{
+    font-size: 120px;
+    font-weight: bolder;
+    color:  #EEF0F1;
+
+}
+.resume-block h6{
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 38%;
+    left: 44%;
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
+  font-weight: 600;
+}
+.progress-bar{
+    background-color: #20C997;
+}
+.btn3{
+    border-radius:23px ;
+    background-color: transparent;
+    color: #20C997;
+    border: solid 1px #6C757D;
+    font-weight: 600;
+    transition: all 1s;
+}
+.btn-download {
+
+    display: flex;
+    justify-content: center;
+}
+.btn3:hover{
+    background-color: #6C757D;
+    color: #20C997;
+}
+.work-head{
+    position: relative;
+    text-align: center;
+}
+.work-head h2{
+    font-size: 120px;
+    font-weight: bolder;
+    color:  #EEF0F1;
+
+}
+.work-head h6{
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 37%;
+    left: 44%;
+
+}
+.work-categories{
+    text-align: center;
+}
+.work-categories p{
+   padding-left: 10px;
+   font-weight: 400;
+   display: inline;
+   transition: all 1s;
+ 
+}
+.work-categories p:hover {
+    color: #20C997;
+    text-decoration: underline;
+
+}
+.cat-1{
+    margin: 10px 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.cat-1 img{
+    border-radius: 10px;
+    transition: all 1s;
+   
+}
+
+.work-layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all 1s; 
+    color: white;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.cat-1:hover .work-layer{
+    opacity: 1;
+  
+
+}
+.cat-1:hover img{
+   
+    transform: scale(1.1);
+
+    }
+#contacts{
+    background-color: #F8F9FA;
+}
+.contact-head{
+    position: relative;
+    text-align: center;
+
+}
+.contact-head h2{
+    font-size: 120px;
+    font-weight: bolder;
+    color:  #EEF0F1;
+
+}
+.contact-head h6{
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 37%;
+    left: 40%;
+
+}
+.contact-icon{
+    color: #20C997;
+    font-size: 18;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.my-info h3{
+    font-weight: 800;
+}
+.my-info span {
+    font-weight: 600;
+}
+.my-info p{ 
+    font-weight: 600;
+}
+.contact-inputs{
+    display: flex;
+    justify-content: space-between;
+}
+.email{
+    width: 35%;
+    border: 1px solid #EEF0F1;
+}
+.name{width: 60%;
+    border: 1px solid #EEF0F1;}
+.text-opinion{
+    border: 1px solid #EEF0F1;
+}
+.info-form h3{
+    font-weight: 800;
+    margin-bottom: 10px;
+
+}
+.btn5{
+    background-color: #20C997;
+    color: white;
+    border-radius: 20px;
+    border: solid #20C997 1px;
+    padding: 11px 20px;
+   
+    transition: all 1s;
+}
+.div-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ 
+}
+.btn5:hover{
+    background-color: #6C757D;
+    color: #20C997;
+
+}
+.footer-part{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
